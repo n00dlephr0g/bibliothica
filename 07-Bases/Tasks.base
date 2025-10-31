@@ -1,3 +1,5 @@
+formulas:
+  i: ""
 properties:
   file.links:
     displayName: dependency
@@ -11,5 +13,6 @@ views:
     order:
       - file.name
       - due date
+      - importance
     columnSize:
       file.name: 190
