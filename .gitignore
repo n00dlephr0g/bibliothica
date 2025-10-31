@@ -1,4 +1,5 @@
 .obsidian/workspace*
 .obsidian/app.json
-.obsidian/plugins/*/data
+.obsidian/obsidian.json
+.obsidian/plugins/*/data*
 .obsidian/hotkeys.json
