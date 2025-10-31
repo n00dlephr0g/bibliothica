@@ -1,0 +1,15 @@
+properties:
+  file.links:
+    displayName: dependency
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("02-Tasks")
+        - file.hasTag("task")
+    order:
+      - file.name
+      - due date
+    columnSize:
+      file.name: 190
