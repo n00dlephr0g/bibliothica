@@ -14,5 +14,8 @@ views:
       - file.name
       - due date
       - importance
+      - started
+      - completed
     columnSize:
       file.name: 190
+      note.started: 81
